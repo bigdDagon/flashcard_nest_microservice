@@ -30,6 +30,11 @@ A brief description of what this project does and who it's for
 | `password` | `string` | **Required**. password length is more than 8 |
 
 ### Flashcard Service
+#### Get shared flashcard
+```http
+  GET /flashcard/all
+```
+
 #### Get flashcard by cardId
 
 ```http
